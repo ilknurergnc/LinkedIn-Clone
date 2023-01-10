@@ -1,0 +1,150 @@
+.navbarbg {
+    height: 68px;
+    background-color: white;
+    overflow: hidden;
+  
+  }
+  
+  input.searche {
+    height: 40px;
+    max-width: 500px;
+    background-color: #eef3f8;
+    border: 0;
+    
+  }
+  
+  input::placeholder {
+    font-size: 18px;
+    font-family: inherit;
+    text-align: center;
+    color: gray;
+    background-image: url(/assets/search-solid.svg);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: 7px;
+  }
+  
+  .body {
+    background-color: #f3f2ef;
+  }
+  
+  .menutext {
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: gray;
+    margin-top: 5px;
+    font-weight: lighter;
+  }
+  
+  .menutext:hover {
+    color: black;
+  }
+
+  .nav-link {
+    text-align: center;
+    font-size: large;
+  }
+  
+  button.mediatext {
+    color: white;
+    background-color:white;
+    border: none;
+    margin-top: 15px;
+  }
+  
+  button.mediatext:hover {
+    color: black;
+  }
+  
+  .mediatext {
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5f5f5f;
+  }
+  
+  i {
+    color: gray;
+    margin-top: 8px;
+  }
+  i:hover {
+    color: black;
+  }
+  
+  input.content {
+    border-radius: 40px;
+    height: 45px;
+  }
+  input.content::placeholder {
+    font-weight: bolder;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/bootstraplinkedinclone/assets/edit-regular.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  
+  div.card {
+    border-radius: 10px;
+  }
+  
+  .header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .view {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: lightslategray;
+  }
+  
+  .categories {
+    font-size: 13px;
+    font-weight: bold;
+    color: #0a66c2;
+    
+  }
+  
+  li {
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+  }
+  
+  .link {
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #5f5f5f;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+  }
+  
+  button.ref {
+    color: white;
+    background-color:white;
+    border: none;
+    text-align: center;
+  }
+  
+  button.ref:hover {
+    color: #5f5f5f;
+  }
+  
+  .postphoto {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+  .posttext {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 8px;
+  }
